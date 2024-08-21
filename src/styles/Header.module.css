@@ -1,0 +1,186 @@
+/* Header.module.css */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } */
+  /* :root {
+    --inlinePaddingDesktop: 4rem;
+    --inlinePaddingSmallerDevice: 1.25rem;
+  } */
+  
+  /* Common Styles */
+  /* .border-0 {
+    border: none;
+  }
+  .pointer {
+    cursor: pointer;
+  }
+  a,
+  a:active,
+  a:focus {
+    outline: none;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  header {
+    width: 100%;
+    margin: 0 auto;
+    padding-inline: var(--inlinePaddingDesktop);
+    position: relative;
+  } */
+  .navBarContainer {
+    margin: 0 auto;
+    height: 7.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    padding-block: 0.4rem;
+  }
+  .serviceInfo {
+    max-width: 50rem;
+    margin-left: auto;
+    font-size: 0.7rem;
+    font-weight: lighter;
+  }
+  
+  #hamburgerMenu {
+    display: none;
+  }
+  .BrandLogo {
+    display: block;
+    min-width: 10rem;
+    max-width: 15rem;
+    margin-top: auto;
+  }
+  .navigationHeader {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5rem;
+    margin-block: auto;
+  }
+  .navbarMenu {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    padding-inline: 0.4rem;
+  }
+  .navbarMenu a {
+    margin: 0 auto;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    width: fit-content;
+  }
+  .loginIndicator {
+    max-width: 8rem;
+  }
+  .socialMediaIconsGroup {
+    display: block;
+    margin-left: auto;
+  }
+  .sidebar {
+    display: none;
+  }
+  #closeButtonIcon {
+    display: block;
+    margin-left: auto;
+  }
+  
+  /* Responsive Styles */
+  /* @media (max-width: 1024px) {
+    .BrandLogo {
+      width: 12.5rem;
+      height: 2.8rem;
+    }
+  
+    .navigationHeader {
+      margin-top: auto;
+      gap: 2rem;
+    }
+    .navbarMenu {
+      gap: 0.6rem;
+    }
+    .navbarMenu a {
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+    .searchButton {
+      padding: 0.4rem 1.4rem;
+    }
+  }
+  
+  @media (max-width: 835px) {
+    header {
+      padding-inline: var(--inlinePaddingSmallerDevice);
+    }
+    .socialMediaIconsGroup {
+      display: none;
+    }
+    .navBarContainer {
+      height: 6rem;
+      padding: 0.2rem;
+    }
+    .BrandLogo {
+      width: 12.5rem;
+      height: 2.5rem;
+    }
+    .BrandlogoHamburger {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+    }
+    #hamburgerMenu {
+      display: block;
+      width: 1.8rem;
+    }
+    .navbarMenu {
+      display: none;
+    }
+    .sidebar {
+      display: none;
+      position: absolute;
+      flex-direction: column;
+      padding: 1.5rem;
+      gap: 1rem;
+      width: 80%;
+      height: 34rem;
+      background-color: white;
+      top: 0;
+      right: 0;
+      z-index: 9;
+      border: black 0.1rem solid;
+      border-width: thin;
+    }
+    .dropMenuNavMenu {
+      display: flex;
+      gap: 1rem;
+      flex-direction: column;
+      align-items: flex-start;
+      height: 100%;
+      padding-inline: 1.5rem;
+    }
+    .dropMenuNavMenu a {
+      text-decoration: none;
+      border-bottom: 0.1rem black solid;
+      width: 100%;
+      padding-block: 0.6rem;
+    }
+    .loginSignUpButton {
+      margin-top: auto;
+      border-radius: 1rem;
+      object-fit: contain;
+      border: 0;
+    }
+    .closeIcon {
+      display: block;
+      margin-left: auto;
+      padding-inline: 1rem;
+    }
+  } */
+  

@@ -1,0 +1,134 @@
+/* BookingDownloadSection.module.css */
+.bookingDownloadSection {
+    background-image: url('/images/Banner-Background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 14rem;
+    border-radius: 1.4rem;
+    padding: 2.25rem 2rem;
+    display: flex;
+    gap: 0.4rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+  }
+  
+  /* Styles for 1st container inside bookingDownloadSection */
+  .pickUpOptionContainer {
+    display: flex;
+    gap: 0.8rem;
+  }
+  
+  .pickUpOptionContainer button {
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 0.4rem;
+  }
+  
+  .pickUpOptionContainer select {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+    padding: 0.4rem;
+  }
+  
+  /* Styles for 2nd container inside bookingDownloadSection */
+  .bookingTypeContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3.5rem;
+  }
+  
+  /* Common design for input boxes */
+  .inputCalenderbox {
+    width: 11.75rem;
+    padding: 0.6rem 1.6rem;
+    border-radius: 1rem;
+    border: none;
+  }
+  
+  /* Styles for user location container */
+  .userLocationContainer {
+    flex: 1;
+    display: flex;
+    position: relative;
+  }
+  
+  .pickupLocationIcon {
+    position: absolute;
+    left: 0.8rem;
+    top: 32%;
+  }
+  
+  .dropLocation {
+    display: none;
+  }
+  
+  /* Styles for the vehicle pickup date input container */
+  .vehiclePickupDateInputContainer,
+  .vehicleEndDateInputContainer {
+    flex: 1;
+    position: relative;
+  }
+  
+  .calenderIcon {
+    position: absolute;
+    left: 0.8rem;
+    top: 38%;
+  }
+  
+  .vehiclePickupDateInputContainer input,
+  .vehicleEndDateInputContainer input {
+    width: 100%;
+  }
+  
+  /* Styles for the search glass */
+  .searchGlass {
+    background-color: white;
+    padding: 0.4rem 0.6rem;
+    border-radius: 1rem;
+  }
+  
+  .separation {
+    width: 0.5rem;
+    border-left: 1px solid white;
+  }
+  
+  .searchButton {
+    padding: 0.4rem 2.8rem;
+    border-radius: 1rem;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+  }
+  
+  /* Styles for the app download section */
+  .appDownloadSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    color: white;
+  }
+  
+  .storeLinksContainer {
+    display: flex;
+    gap: 0.4rem;
+  }
+  
+  .storeLinksContainer a {
+    width: 6.875rem;
+    height: 2rem;
+    background-size: contain;
+  }
+  
+  .appStore {
+    background-image: url('/images/AppStore-Black.svg');
+  }
+  
+  .playStore {
+    background-image: url('/images/BlackPlayStoreButton.svg');
+  }
+  
