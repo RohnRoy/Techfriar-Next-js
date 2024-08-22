@@ -1,0 +1,66 @@
+/* styles/RentalInstructions.module.css */
+.rentalInstructions {
+    padding: 2.5rem 1.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border: none;
+  }
+  
+  .rentalInstructions h2 {
+    font-size: 2.125rem; /* 34px converted to rem */
+    font-weight: 400;
+  }
+  
+  .stepsContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.4rem;
+    /* padding-inline: 3.6rem 1; */
+    border: none;
+    margin-top: -1rem;
+  }
+  
+  .stepItem {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .stepNumber {
+    font-size: 2.3rem;
+    width: 4rem;
+    height: 3.25rem;
+    color: #e21e26;
+    font-weight: 400;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    border-radius: 0.2rem;
+    text-align: center;
+  }
+  
+  .stepDetails {
+    flex: 1;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 0.875rem;
+    border: 1px solid black;
+    padding: 0.6875rem 3.4em;
+    text-align: center;
+  }
+  
+  .stepDetails img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .stepDescription {
+    font-size: 0.81rem;
+  }
+  

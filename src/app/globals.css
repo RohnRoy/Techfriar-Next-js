@@ -1,5 +1,18 @@
 body{
     padding-top: 0;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    overflow-x: hidden;
+    text-decoration: none;
+    list-style: none;
+    margin: 0px ;
+    
+}
+.footer{
+    padding: 0;
+    margin: 0;
+}
+.companyProfileSection{
+    padding: 0;
+    margin: 0;
 }

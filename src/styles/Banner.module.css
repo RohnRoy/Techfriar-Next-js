@@ -1,0 +1,68 @@
+
+.bannerContainer {
+    position: relative;
+    padding: 12.25rem 12.25rem;
+    background-image: url('/images/2018-Mitsubishi-ASX-1920x966 1.png');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    margin-top: 0.5rem;
+    border-radius: 1.43rem;
+    /* border: 2px solid red; */
+  }
+  
+  .bannerContainer p {
+    color: white;
+  }
+  
+  /* Banner-Section Content */
+  .offerDetailsContainer {
+    position: absolute;
+    width: 27.687rem;
+    display: flex;
+    gap: 0.8rem;
+    height: 3.625rem;
+    left: 38%;
+    bottom: 18%;
+    text-align: start;
+  }
+  
+  .offerDetailsContainer p {
+    line-height: 1.65rem;
+    font-weight: 400;
+  }
+  
+  .offerDetailsContainer button {
+    width: 9.5rem;
+    height: 1.9rem;
+    padding: 0.33rem 1rem;
+    margin-left: -3.5rem;
+    font-size: smaller;
+    border-radius: 1rem;
+    font-size: 0.6rem;
+    font-weight: 600;
+    color: white;
+    background-color: #009046;
+  }
+  
+  /* Carousel Containers */
+  .carouselNavigator {
+    position: absolute;
+    left: 50%;
+    bottom: 1.875rem;
+    display: flex;
+    gap: 0.4rem;
+    z-index: 2;
+  }
+  
+  .circle {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .circle.active {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  

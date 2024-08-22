@@ -1,0 +1,80 @@
+/* styles/FaqSection.module.css */
+.faqSection {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 2.125rem;
+    line-height: 3.188rem;
+    margin-bottom: 2rem;
+  }
+  
+  .faqContainer {
+    max-width: 90rem;
+    margin: 0 auto;
+    border: 2px solid #ffffff;
+    padding: 10px 0;
+  }
+  
+  .eligibility {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    cursor: pointer;
+  }
+  
+  .eligibility p {
+    margin: 0;
+  }
+  
+  .eligibility img {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .rotated {
+    transform: rotate(45deg);
+  }
+  
+  .bookCar {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+  
+  .ageGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .license {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.544rem;
+    opacity: 0.5;
+  }
+  
+  .hr {
+    border: 0;
+    border-top: 1px solid black;
+    margin: 1rem 0;
+  }
+  /* components/FaqSection.module.css */
+.faq-section {
+  padding: 2rem 5rem;
+}
+
+@media (max-width: 768px) {
+  .faq-section {
+    padding: 1rem 2rem;
+  }
+
+  .faq-item {
+    margin-bottom: 1rem;
+    padding: 1rem;
+  }
+}
