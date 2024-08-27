@@ -21,7 +21,7 @@ export default function Header() {
             />
             <img
               src="/icons/charm_menu-hamburger.svg"
-              alt="charm_menu-hamburger-icon"
+              alt="menu-hamburger-icon"
               id={styles.hamburgerMenu}
             />
           </div>

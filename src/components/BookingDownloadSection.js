@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import styles from '../styles/BookingDownloadSection.module.css';
 
 const BookingDownloadSection = () => {
@@ -20,9 +21,10 @@ const BookingDownloadSection = () => {
           <select className={`${styles.bookLocation} ${styles.inputCalenderbox} ${styles.border0}`}>
             <option value="alQuoz">Al Quoz</option>
           </select>
-          <img
+          <Image
             src="/icons/Location-IconCopy.svg"
-            width="10"
+            width={10}
+            height={10}
             alt="userLocation-Icon"
             className={styles.pickupLocationIcon}
           />
@@ -33,9 +35,10 @@ const BookingDownloadSection = () => {
           <select className={`${styles.bookLocation} ${styles.inputCalenderbox} ${styles.border0}`}>
             <option value="alQuozx">Al Quoz</option>
           </select>
-          <img
+          <Image
             src="/icons/Location-Icon.svg"
-            width="10"
+            width={10}
+            height={10}
             alt="userLocation-Icon"
             className={styles.pickupLocationIcon}
           />
@@ -44,9 +47,11 @@ const BookingDownloadSection = () => {
         {/* User Vehicle-pickup-date-input-container */}
         <div className={styles.vehiclePickupDateInputContainer}>
           <input type="datetime-local" className={`${styles.inputCalenderbox} ${styles.border0}`} value="2018-06-12T19:30"/>
-          <img
+          <Image
             src="/icons/calender.svg"
             alt="calender-icon"
+            width={1}
+            height={1}
             className={styles.calenderIcon}
           />
         </div>
@@ -54,15 +59,20 @@ const BookingDownloadSection = () => {
         {/* User Vehicle-end-date-input-container */}
         <div className={styles.vehicleEndDateInputContainer}>
           <input type="datetime-local" className={`${styles.inputCalenderbox} ${styles.border0}`} value="2018-06-12T19:30"/>
-          <img
+          <Image
             src="/icons/calender.svg"
             alt="calender-icon"
+            width={1}
+            height={1}
             className={styles.calenderIcon}
           />
         </div>
 
         {/* Search Glass Icon */}
-        <img src="/icons/search-glass.svg" alt="search-glass" className={`${styles.searchGlass} ${styles.pointer}`} />
+        <Image src="/icons/search-glass.svg" alt="search-glass" 
+        width={35}
+        height={25}
+         className={`${styles.searchGlass} ${styles.pointer}`} />
 
         <span className={styles.separation}></span>
 
